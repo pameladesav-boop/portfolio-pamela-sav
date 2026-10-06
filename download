@@ -1,0 +1,7 @@
+node_modules/
+dist/
+reference/
+*.log
+portfolio-publicacao.zip
+portfolio-github.zip
+.DS_Store

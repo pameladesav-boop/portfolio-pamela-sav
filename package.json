@@ -1,0 +1,15 @@
+{
+  "name": "pamela-sav-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build && node scripts/prerender.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}
